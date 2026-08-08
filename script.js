@@ -226,7 +226,11 @@ if (form) {
       // --------------------------------------------------------
 
       const result = await res.json();
+      alert(JSON.stringify(result, null, 2));
 
+        console.log("BACKEND RESPONSE:", result);
+
+        renderResult(result);
 
       // IMPORTANT:
       // This lets you see exactly what Render/FastAPI returns.
