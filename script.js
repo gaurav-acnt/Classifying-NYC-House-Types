@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://127.0.1:8000";
+const API_BASE_URL = "https://classifying-nyc-house-types-srqn.onrender.com";
 const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
 const HEALTH_ENDPOINT = `${API_BASE_URL}/`;
 
