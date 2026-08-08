@@ -121,7 +121,7 @@ def predict(features: Features):
     prediction = model.predict(row)
 
     # Prediction probability
-    probability = model.predict_proba(row)
+    probability = model.predict_proba(row)[0]
 
     return {
         "Predicted_room_type": prediction[0],
